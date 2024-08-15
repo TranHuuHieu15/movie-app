@@ -3,9 +3,11 @@ const Header = () => {
     return (
         <>
             <div className="p-3 bg-black flex justify-between items-center">
-                <div className="flex space-x-8">
-                    <h1 className="text-[30px] text-red-700 uppercase font-bold">Movie</h1>
-                    <nav className="flex items-center space-x-6">
+                <div className="flex gap-8">
+                    <h1 className="text-[30px] text-red-700 uppercase font-bold">
+                        Movie
+                    </h1>
+                    <nav className="flex items-center gap-6">
                         <Link to="/" className="text-white">
                             Home
                         </Link>
@@ -17,13 +19,15 @@ const Header = () => {
                         </Link>
                     </nav>
                 </div>
-                <div className="flex space-x-4">
+                <div className="flex gap-4">
                     <input
                         type="text"
-                        className="h-10 rounded-lg w-56 p-1"
-                        placeholder="The movie you want watching"
+                        className="h-10 rounded-lg w-60 px-2 py-1 outline-none"
+                        placeholder="Search"
                     />
-                    <button className="text-white bg-red-500 rounded-lg p-2 w-24">Search</button>
+                    <button className="text-white bg-red-500 rounded-lg p-2 w-24 hover:bg-red-400">
+                        Search
+                    </button>
                 </div>
             </div>
         </>
