@@ -1,7 +1,7 @@
-import IconRating from '../assets/image/rating.png'
-import IconRatingHalf from '../assets/image/rating-half.png'
-import ImgTemp from '../assets/image/temp-1.jpeg'
-import IconPlay from '../assets/image/play-button.png'
+import IconRating from "../assets/image/rating.png"
+import IconRatingHalf from "../assets/image/rating-half.png"
+import ImgTemp from "../assets/image/temp-1.jpeg"
+import IconPlay from "../assets/image/play-button.png"
 function Banner() {
     return (
         <>
@@ -20,26 +20,10 @@ function Banner() {
                                 Nghe nói em thích tôi
                             </h2>
                             <div className="flex items-center gap-3">
-                                <img
-                                    src={IconRating}
-                                    alt="icon-rating"
-                                    className="w-8 h-8"
-                                />
-                                <img
-                                    src={IconRating}
-                                    alt="icon-rating"
-                                    className="w-8 h-8"
-                                />
-                                <img
-                                    src={IconRating}
-                                    alt="icon-rating"
-                                    className="w-8 h-8"
-                                />
-                                <img
-                                    src={IconRating}
-                                    alt="icon-rating"
-                                    className="w-8 h-8"
-                                />
+                                <img src={IconRating} alt="icon-rating" className="w-8 h-8" />
+                                <img src={IconRating} alt="icon-rating" className="w-8 h-8" />
+                                <img src={IconRating} alt="icon-rating" className="w-8 h-8" />
+                                <img src={IconRating} alt="icon-rating" className="w-8 h-8" />
                                 <img
                                     src={IconRatingHalf}
                                     alt="icon-rating-half"
@@ -47,11 +31,10 @@ function Banner() {
                                 />
                             </div>
                             <p className="text-white w-[50%] text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Explicabo aut fugit recusandae, nostrum sequi,
-                                minus assumenda numquam voluptatem error doloremque
-                                vitae at quisquam, cupiditate velit quos dolore rem.
-                                Voluptates, voluptatibus.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Explicabo aut fugit recusandae, nostrum sequi, minus assumenda
+                                numquam voluptatem error doloremque vitae at quisquam,
+                                cupiditate velit quos dolore rem. Voluptates, voluptatibus.
                             </p>
                             <div className="flex items-center gap-5">
                                 <button
@@ -81,14 +64,11 @@ function Banner() {
                                 backdrop-blur-sm opacity-0 group group-hover:opacity-100 transition-opacity 
                                 duration-500 ease-in-out"
                             >
-                                <img
-                                    src={IconPlay}
-                                    alt="play"
-                                    className="w-16 h-16"
-                                />
+                                <img src={IconPlay} alt="play" className="w-16 h-16" />
                             </button>
                         </div>
                     </div>
+                    <p className="student"></p>
                 </div>
             </div>
         </>

@@ -6,12 +6,12 @@
     "htmlWhitespaceSensitivity": "css",
     "insertPragma": false,
     "jsxSingleQuote": false,
-    "printWidth": 90,
+    "printWidth": 95,
     "proseWrap": "preserve",
     "quoteProps": "as-needed",
     "requirePragma": false,
     "semi": false,
-    "singleQuote": true,
+    "singleQuote": false,
     "tabWidth": 4,
     "trailingComma": "all"
 }
